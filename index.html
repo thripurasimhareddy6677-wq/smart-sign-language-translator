@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Text-to-Avatar Sign Language Translator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Text-to-Avatar Sign Language Translator</h1>
+
+        <textarea
+            id="text-input"
+            placeholder="Type your text here..."
+        ></textarea>
+
+        <div class="button-group">
+            <button id="translate-btn" type="button">
+                Translate
+            </button>
+
+            <button id="voice-btn" type="button" aria-label="Voice input">
+                🎤
+            </button>
+        </div>
+
+        <div class="avatar-display" id="avatar-container">
+            <!-- Each word and its sign images will appear on a separate row -->
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
